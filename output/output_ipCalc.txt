@@ -1,0 +1,820 @@
+Script started on Sunday 29 October 2017 12:45:02 AM IST
+]0;mayank@mayank-Vostro-5568 ~/Desktop/calc[01;32mmayank@mayank-Vostro-5568[00m [01;34m~/Desktop/calc $[00m ./a.outg++ final_ip_calc.cpp 
+]0;mayank@mayank-Vostro-5568 ~/Desktop/calc[01;32mmayank@mayank-Vostro-5568[00m [01;34m~/Desktop/calc $[00m ./a.out
+-------------------------IP Calculator-------------------------------
+OPTIONS :: What you want to give as input :
+
+(1) ip address  & no of host & no of subnets
+(2) ip address & CIDR format n bits
+
+Enter your choice:1
+
+Enter ip address :127.1.23.0
+--------------------------------------------------------->
+IP Class: Reserved block, System Loopback Address
+Default subnet mask is: 	255.0.0.0
+--------------------------------------------------------->
+Enter the no of required hosts :256
+Enter the no of required subnets :1024
+
+no of bits in host part is :8
+according to class and no. of hosts possible value of  no. of bits in subnet part is :16
+--------------------------------------------------------->
+
+Custom subnet mask is 	255.255.255.0
+network address is 	127.1.23.0
+no of subnets is 65536
+no of address unique is 256
+no of address usable is 254
+broadcast address for given ip's network is	127.1.23.255
+--------------------------------------------------------->
+#Options 
+1. In case you want to print a specified subnet's range (for first subnet enter 1 and so on)
+2. In case you want to print all subnets range
+3. In case you dont want to print subnet range
+Enter your choice :1
+Enter nth subnet of which you want to find range -->1
+
+
+final address for given subnet's is : 127.0.0.254
+Initial address for given subnet's is : 127.0.0.1
+--------------------------------------------------------->
+#Option :
+1. if you want to exit
+2. if you want to give future growth
+3. if want to reset everything
+Enter your choice:2
+#Growth in 1.subnets 2.hosts 
+Enter your choice :2
+Enter percentage growth in hosts :100
+no of bits in host part is :9
+according to class and no. of hosts possible value of  no. of bits in subnet part is :15
+--------------------------------------------------------->
+
+Custom subnet mask is 	255.255.254.0
+network address is 	127.1.22.0
+no of subnets is 32768
+no of address unique is 512
+no of address usable is 510
+broadcast address for given ip's network is	127.1.23.255
+--------------------------------------------------------->
+#Options 
+1. In case you want to print a specified subnet's range (for first subnet enter 1 and so on)
+2. In case you want to print all subnets range
+3. In case you dont want to print subnet range
+Enter your choice :3
+--------------------------------------------------------->
+#Option :
+1. if you want to exit
+2. if you want to give future growth
+3. if want to reset everything
+Enter your choice:2
+#Growth in 1.subnets 2.hosts 
+Enter your choice :2
+Enter percentage growth in hosts :300
+no of bits in host part is :11
+according to class and no. of hosts possible value of  no. of bits in subnet part is :13
+--------------------------------------------------------->
+
+Custom subnet mask is 	255.255.248.0
+network address is 	127.1.16.0
+no of subnets is 8192
+no of address unique is 2048
+no of address usable is 2046
+broadcast address for given ip's network is	127.1.23.255
+--------------------------------------------------------->
+#Options 
+1. In case you want to print a specified subnet's range (for first subnet enter 1 and so on)
+2. In case you want to print all subnets range
+3. In case you dont want to print subnet range
+Enter your choice :3
+--------------------------------------------------------->
+#Option :
+1. if you want to exit
+2. if you want to give future growth
+3. if want to reset everything
+Enter your choice:2
+#Growth in 1.subnets 2.hosts 
+Enter your choice :500
+Invalid input
+#Growth in 1.subnets 2.hosts 
+Enter your choice :2
+Enter percentage growth in hosts :500
+no of bits in host part is :14
+according to class and no. of hosts possible value of  no. of bits in subnet part is :10
+--------------------------------------------------------->
+
+Custom subnet mask is 	255.255.192.0
+network address is 	127.1.0.0
+no of subnets is 1024
+no of address unique is 16384
+no of address usable is 16382
+broadcast address for given ip's network is	127.1.63.255
+--------------------------------------------------------->
+#Options 
+1. In case you want to print a specified subnet's range (for first subnet enter 1 and so on)
+2. In case you want to print all subnets range
+3. In case you dont want to print subnet range
+Enter your choice :3
+--------------------------------------------------------->
+#Option :
+1. if you want to exit
+2. if you want to give future growth
+3. if want to reset everything
+Enter your choice:2
+#Growth in 1.subnets 2.hosts 
+Enter your choice :2
+Enter percentage growth in hosts :500
+no of bits in host part is :17
+according to class and no. of hosts possible value of  no. of bits in subnet part is :7
+no available enough bits for no. of host and no. of subnets:: Change inputs
+--------------------------------------------------------->
+
+Custom subnet mask is 	255.254.192.0
+network address is 	127.0.0.0
+no of subnets is 128
+no of address unique is 131072
+no of address usable is 131070
+broadcast address for given ip's network is	127.1.255.255
+--------------------------------------------------------->
+#Options 
+1. In case you want to print a specified subnet's range (for first subnet enter 1 and so on)
+2. In case you want to print all subnets range
+3. In case you dont want to print subnet range
+Enter your choice :3
+--------------------------------------------------------->
+#Option :
+1. if you want to exit
+2. if you want to give future growth
+3. if want to reset everything
+Enter your choice:2
+#Growth in 1.subnets 2.hosts 
+Enter your choice :2
+Enter percentage growth in hosts :0
+no of bits in host part is :17
+according to class and no. of hosts possible value of  no. of bits in subnet part is :7
+no available enough bits for no. of host and no. of subnets:: Change inputs
+--------------------------------------------------------->
+
+Custom subnet mask is 	255.254.192.0
+network address is 	127.0.0.0
+no of subnets is 128
+no of address unique is 131072
+no of address usable is 131070
+broadcast address for given ip's network is	127.1.255.255
+--------------------------------------------------------->
+#Options 
+1. In case you want to print a specified subnet's range (for first subnet enter 1 and so on)
+2. In case you want to print all subnets range
+3. In case you dont want to print subnet range
+Enter your choice :2
+		 ******1th subnets range *******
+
+final address for given subnet's is : 127.1.255.254
+Initial address for given subnet's is : 127.0.0.1
+
+		 ******2th subnets range *******
+
+final address for given subnet's is : 127.3.255.254
+Initial address for given subnet's is : 127.2.0.1
+
+		 ******3th subnets range *******
+
+final address for given subnet's is : 127.5.255.254
+Initial address for given subnet's is : 127.4.0.1
+
+		 ******4th subnets range *******
+
+final address for given subnet's is : 127.7.255.254
+Initial address for given subnet's is : 127.6.0.1
+
+		 ******5th subnets range *******
+
+final address for given subnet's is : 127.9.255.254
+Initial address for given subnet's is : 127.8.0.1
+
+		 ******6th subnets range *******
+
+final address for given subnet's is : 127.11.255.254
+Initial address for given subnet's is : 127.10.0.1
+
+		 ******7th subnets range *******
+
+final address for given subnet's is : 127.13.255.254
+Initial address for given subnet's is : 127.12.0.1
+
+		 ******8th subnets range *******
+
+final address for given subnet's is : 127.15.255.254
+Initial address for given subnet's is : 127.14.0.1
+
+		 ******9th subnets range *******
+
+final address for given subnet's is : 127.17.255.254
+Initial address for given subnet's is : 127.16.0.1
+
+		 ******10th subnets range *******
+
+final address for given subnet's is : 127.19.255.254
+Initial address for given subnet's is : 127.18.0.1
+
+		 ******11th subnets range *******
+
+final address for given subnet's is : 127.21.255.254
+Initial address for given subnet's is : 127.20.0.1
+
+		 ******12th subnets range *******
+
+final address for given subnet's is : 127.23.255.254
+Initial address for given subnet's is : 127.22.0.1
+
+		 ******13th subnets range *******
+
+final address for given subnet's is : 127.25.255.254
+Initial address for given subnet's is : 127.24.0.1
+
+		 ******14th subnets range *******
+
+final address for given subnet's is : 127.27.255.254
+Initial address for given subnet's is : 127.26.0.1
+
+		 ******15th subnets range *******
+
+final address for given subnet's is : 127.29.255.254
+Initial address for given subnet's is : 127.28.0.1
+
+		 ******16th subnets range *******
+
+final address for given subnet's is : 127.31.255.254
+Initial address for given subnet's is : 127.30.0.1
+
+		 ******17th subnets range *******
+
+final address for given subnet's is : 127.33.255.254
+Initial address for given subnet's is : 127.32.0.1
+
+		 ******18th subnets range *******
+
+final address for given subnet's is : 127.35.255.254
+Initial address for given subnet's is : 127.34.0.1
+
+		 ******19th subnets range *******
+
+final address for given subnet's is : 127.37.255.254
+Initial address for given subnet's is : 127.36.0.1
+
+		 ******20th subnets range *******
+
+final address for given subnet's is : 127.39.255.254
+Initial address for given subnet's is : 127.38.0.1
+
+		 ******21th subnets range *******
+
+final address for given subnet's is : 127.41.255.254
+Initial address for given subnet's is : 127.40.0.1
+
+		 ******22th subnets range *******
+
+final address for given subnet's is : 127.43.255.254
+Initial address for given subnet's is : 127.42.0.1
+
+		 ******23th subnets range *******
+
+final address for given subnet's is : 127.45.255.254
+Initial address for given subnet's is : 127.44.0.1
+
+		 ******24th subnets range *******
+
+final address for given subnet's is : 127.47.255.254
+Initial address for given subnet's is : 127.46.0.1
+
+		 ******25th subnets range *******
+
+final address for given subnet's is : 127.49.255.254
+Initial address for given subnet's is : 127.48.0.1
+
+		 ******26th subnets range *******
+
+final address for given subnet's is : 127.51.255.254
+Initial address for given subnet's is : 127.50.0.1
+
+		 ******27th subnets range *******
+
+final address for given subnet's is : 127.53.255.254
+Initial address for given subnet's is : 127.52.0.1
+
+		 ******28th subnets range *******
+
+final address for given subnet's is : 127.55.255.254
+Initial address for given subnet's is : 127.54.0.1
+
+		 ******29th subnets range *******
+
+final address for given subnet's is : 127.57.255.254
+Initial address for given subnet's is : 127.56.0.1
+
+		 ******30th subnets range *******
+
+final address for given subnet's is : 127.59.255.254
+Initial address for given subnet's is : 127.58.0.1
+
+		 ******31th subnets range *******
+
+final address for given subnet's is : 127.61.255.254
+Initial address for given subnet's is : 127.60.0.1
+
+		 ******32th subnets range *******
+
+final address for given subnet's is : 127.63.255.254
+Initial address for given subnet's is : 127.62.0.1
+
+		 ******33th subnets range *******
+
+final address for given subnet's is : 127.65.255.254
+Initial address for given subnet's is : 127.64.0.1
+
+		 ******34th subnets range *******
+
+final address for given subnet's is : 127.67.255.254
+Initial address for given subnet's is : 127.66.0.1
+
+		 ******35th subnets range *******
+
+final address for given subnet's is : 127.69.255.254
+Initial address for given subnet's is : 127.68.0.1
+
+		 ******36th subnets range *******
+
+final address for given subnet's is : 127.71.255.254
+Initial address for given subnet's is : 127.70.0.1
+
+		 ******37th subnets range *******
+
+final address for given subnet's is : 127.73.255.254
+Initial address for given subnet's is : 127.72.0.1
+
+		 ******38th subnets range *******
+
+final address for given subnet's is : 127.75.255.254
+Initial address for given subnet's is : 127.74.0.1
+
+		 ******39th subnets range *******
+
+final address for given subnet's is : 127.77.255.254
+Initial address for given subnet's is : 127.76.0.1
+
+		 ******40th subnets range *******
+
+final address for given subnet's is : 127.79.255.254
+Initial address for given subnet's is : 127.78.0.1
+
+		 ******41th subnets range *******
+
+final address for given subnet's is : 127.81.255.254
+Initial address for given subnet's is : 127.80.0.1
+
+		 ******42th subnets range *******
+
+final address for given subnet's is : 127.83.255.254
+Initial address for given subnet's is : 127.82.0.1
+
+		 ******43th subnets range *******
+
+final address for given subnet's is : 127.85.255.254
+Initial address for given subnet's is : 127.84.0.1
+
+		 ******44th subnets range *******
+
+final address for given subnet's is : 127.87.255.254
+Initial address for given subnet's is : 127.86.0.1
+
+		 ******45th subnets range *******
+
+final address for given subnet's is : 127.89.255.254
+Initial address for given subnet's is : 127.88.0.1
+
+		 ******46th subnets range *******
+
+final address for given subnet's is : 127.91.255.254
+Initial address for given subnet's is : 127.90.0.1
+
+		 ******47th subnets range *******
+
+final address for given subnet's is : 127.93.255.254
+Initial address for given subnet's is : 127.92.0.1
+
+		 ******48th subnets range *******
+
+final address for given subnet's is : 127.95.255.254
+Initial address for given subnet's is : 127.94.0.1
+
+		 ******49th subnets range *******
+
+final address for given subnet's is : 127.97.255.254
+Initial address for given subnet's is : 127.96.0.1
+
+		 ******50th subnets range *******
+
+final address for given subnet's is : 127.99.255.254
+Initial address for given subnet's is : 127.98.0.1
+
+		 ******51th subnets range *******
+
+final address for given subnet's is : 127.101.255.254
+Initial address for given subnet's is : 127.100.0.1
+
+		 ******52th subnets range *******
+
+final address for given subnet's is : 127.103.255.254
+Initial address for given subnet's is : 127.102.0.1
+
+		 ******53th subnets range *******
+
+final address for given subnet's is : 127.105.255.254
+Initial address for given subnet's is : 127.104.0.1
+
+		 ******54th subnets range *******
+
+final address for given subnet's is : 127.107.255.254
+Initial address for given subnet's is : 127.106.0.1
+
+		 ******55th subnets range *******
+
+final address for given subnet's is : 127.109.255.254
+Initial address for given subnet's is : 127.108.0.1
+
+		 ******56th subnets range *******
+
+final address for given subnet's is : 127.111.255.254
+Initial address for given subnet's is : 127.110.0.1
+
+		 ******57th subnets range *******
+
+final address for given subnet's is : 127.113.255.254
+Initial address for given subnet's is : 127.112.0.1
+
+		 ******58th subnets range *******
+
+final address for given subnet's is : 127.115.255.254
+Initial address for given subnet's is : 127.114.0.1
+
+		 ******59th subnets range *******
+
+final address for given subnet's is : 127.117.255.254
+Initial address for given subnet's is : 127.116.0.1
+
+		 ******60th subnets range *******
+
+final address for given subnet's is : 127.119.255.254
+Initial address for given subnet's is : 127.118.0.1
+
+		 ******61th subnets range *******
+
+final address for given subnet's is : 127.121.255.254
+Initial address for given subnet's is : 127.120.0.1
+
+		 ******62th subnets range *******
+
+final address for given subnet's is : 127.123.255.254
+Initial address for given subnet's is : 127.122.0.1
+
+		 ******63th subnets range *******
+
+final address for given subnet's is : 127.125.255.254
+Initial address for given subnet's is : 127.124.0.1
+
+		 ******64th subnets range *******
+
+final address for given subnet's is : 127.127.255.254
+Initial address for given subnet's is : 127.126.0.1
+
+		 ******65th subnets range *******
+
+final address for given subnet's is : 127.129.255.254
+Initial address for given subnet's is : 127.128.0.1
+
+		 ******66th subnets range *******
+
+final address for given subnet's is : 127.131.255.254
+Initial address for given subnet's is : 127.130.0.1
+
+		 ******67th subnets range *******
+
+final address for given subnet's is : 127.133.255.254
+Initial address for given subnet's is : 127.132.0.1
+
+		 ******68th subnets range *******
+
+final address for given subnet's is : 127.135.255.254
+Initial address for given subnet's is : 127.134.0.1
+
+		 ******69th subnets range *******
+
+final address for given subnet's is : 127.137.255.254
+Initial address for given subnet's is : 127.136.0.1
+
+		 ******70th subnets range *******
+
+final address for given subnet's is : 127.139.255.254
+Initial address for given subnet's is : 127.138.0.1
+
+		 ******71th subnets range *******
+
+final address for given subnet's is : 127.141.255.254
+Initial address for given subnet's is : 127.140.0.1
+
+		 ******72th subnets range *******
+
+final address for given subnet's is : 127.143.255.254
+Initial address for given subnet's is : 127.142.0.1
+
+		 ******73th subnets range *******
+
+final address for given subnet's is : 127.145.255.254
+Initial address for given subnet's is : 127.144.0.1
+
+		 ******74th subnets range *******
+
+final address for given subnet's is : 127.147.255.254
+Initial address for given subnet's is : 127.146.0.1
+
+		 ******75th subnets range *******
+
+final address for given subnet's is : 127.149.255.254
+Initial address for given subnet's is : 127.148.0.1
+
+		 ******76th subnets range *******
+
+final address for given subnet's is : 127.151.255.254
+Initial address for given subnet's is : 127.150.0.1
+
+		 ******77th subnets range *******
+
+final address for given subnet's is : 127.153.255.254
+Initial address for given subnet's is : 127.152.0.1
+
+		 ******78th subnets range *******
+
+final address for given subnet's is : 127.155.255.254
+Initial address for given subnet's is : 127.154.0.1
+
+		 ******79th subnets range *******
+
+final address for given subnet's is : 127.157.255.254
+Initial address for given subnet's is : 127.156.0.1
+
+		 ******80th subnets range *******
+
+final address for given subnet's is : 127.159.255.254
+Initial address for given subnet's is : 127.158.0.1
+
+		 ******81th subnets range *******
+
+final address for given subnet's is : 127.161.255.254
+Initial address for given subnet's is : 127.160.0.1
+
+		 ******82th subnets range *******
+
+final address for given subnet's is : 127.163.255.254
+Initial address for given subnet's is : 127.162.0.1
+
+		 ******83th subnets range *******
+
+final address for given subnet's is : 127.165.255.254
+Initial address for given subnet's is : 127.164.0.1
+
+		 ******84th subnets range *******
+
+final address for given subnet's is : 127.167.255.254
+Initial address for given subnet's is : 127.166.0.1
+
+		 ******85th subnets range *******
+
+final address for given subnet's is : 127.169.255.254
+Initial address for given subnet's is : 127.168.0.1
+
+		 ******86th subnets range *******
+
+final address for given subnet's is : 127.171.255.254
+Initial address for given subnet's is : 127.170.0.1
+
+		 ******87th subnets range *******
+
+final address for given subnet's is : 127.173.255.254
+Initial address for given subnet's is : 127.172.0.1
+
+		 ******88th subnets range *******
+
+final address for given subnet's is : 127.175.255.254
+Initial address for given subnet's is : 127.174.0.1
+
+		 ******89th subnets range *******
+
+final address for given subnet's is : 127.177.255.254
+Initial address for given subnet's is : 127.176.0.1
+
+		 ******90th subnets range *******
+
+final address for given subnet's is : 127.179.255.254
+Initial address for given subnet's is : 127.178.0.1
+
+		 ******91th subnets range *******
+
+final address for given subnet's is : 127.181.255.254
+Initial address for given subnet's is : 127.180.0.1
+
+		 ******92th subnets range *******
+
+final address for given subnet's is : 127.183.255.254
+Initial address for given subnet's is : 127.182.0.1
+
+		 ******93th subnets range *******
+
+final address for given subnet's is : 127.185.255.254
+Initial address for given subnet's is : 127.184.0.1
+
+		 ******94th subnets range *******
+
+final address for given subnet's is : 127.187.255.254
+Initial address for given subnet's is : 127.186.0.1
+
+		 ******95th subnets range *******
+
+final address for given subnet's is : 127.189.255.254
+Initial address for given subnet's is : 127.188.0.1
+
+		 ******96th subnets range *******
+
+final address for given subnet's is : 127.191.255.254
+Initial address for given subnet's is : 127.190.0.1
+
+		 ******97th subnets range *******
+
+final address for given subnet's is : 127.193.255.254
+Initial address for given subnet's is : 127.192.0.1
+
+		 ******98th subnets range *******
+
+final address for given subnet's is : 127.195.255.254
+Initial address for given subnet's is : 127.194.0.1
+
+		 ******99th subnets range *******
+
+final address for given subnet's is : 127.197.255.254
+Initial address for given subnet's is : 127.196.0.1
+
+		 ******100th subnets range *******
+
+final address for given subnet's is : 127.199.255.254
+Initial address for given subnet's is : 127.198.0.1
+
+		 ******101th subnets range *******
+
+final address for given subnet's is : 127.201.255.254
+Initial address for given subnet's is : 127.200.0.1
+
+		 ******102th subnets range *******
+
+final address for given subnet's is : 127.203.255.254
+Initial address for given subnet's is : 127.202.0.1
+
+		 ******103th subnets range *******
+
+final address for given subnet's is : 127.205.255.254
+Initial address for given subnet's is : 127.204.0.1
+
+		 ******104th subnets range *******
+
+final address for given subnet's is : 127.207.255.254
+Initial address for given subnet's is : 127.206.0.1
+
+		 ******105th subnets range *******
+
+final address for given subnet's is : 127.209.255.254
+Initial address for given subnet's is : 127.208.0.1
+
+		 ******106th subnets range *******
+
+final address for given subnet's is : 127.211.255.254
+Initial address for given subnet's is : 127.210.0.1
+
+		 ******107th subnets range *******
+
+final address for given subnet's is : 127.213.255.254
+Initial address for given subnet's is : 127.212.0.1
+
+		 ******108th subnets range *******
+
+final address for given subnet's is : 127.215.255.254
+Initial address for given subnet's is : 127.214.0.1
+
+		 ******109th subnets range *******
+
+final address for given subnet's is : 127.217.255.254
+Initial address for given subnet's is : 127.216.0.1
+
+		 ******110th subnets range *******
+
+final address for given subnet's is : 127.219.255.254
+Initial address for given subnet's is : 127.218.0.1
+
+		 ******111th subnets range *******
+
+final address for given subnet's is : 127.221.255.254
+Initial address for given subnet's is : 127.220.0.1
+
+		 ******112th subnets range *******
+
+final address for given subnet's is : 127.223.255.254
+Initial address for given subnet's is : 127.222.0.1
+
+		 ******113th subnets range *******
+
+final address for given subnet's is : 127.225.255.254
+Initial address for given subnet's is : 127.224.0.1
+
+		 ******114th subnets range *******
+
+final address for given subnet's is : 127.227.255.254
+Initial address for given subnet's is : 127.226.0.1
+
+		 ******115th subnets range *******
+
+final address for given subnet's is : 127.229.255.254
+Initial address for given subnet's is : 127.228.0.1
+
+		 ******116th subnets range *******
+
+final address for given subnet's is : 127.231.255.254
+Initial address for given subnet's is : 127.230.0.1
+
+		 ******117th subnets range *******
+
+final address for given subnet's is : 127.233.255.254
+Initial address for given subnet's is : 127.232.0.1
+
+		 ******118th subnets range *******
+
+final address for given subnet's is : 127.235.255.254
+Initial address for given subnet's is : 127.234.0.1
+
+		 ******119th subnets range *******
+
+final address for given subnet's is : 127.237.255.254
+Initial address for given subnet's is : 127.236.0.1
+
+		 ******120th subnets range *******
+
+final address for given subnet's is : 127.239.255.254
+Initial address for given subnet's is : 127.238.0.1
+
+		 ******121th subnets range *******
+
+final address for given subnet's is : 127.241.255.254
+Initial address for given subnet's is : 127.240.0.1
+
+		 ******122th subnets range *******
+
+final address for given subnet's is : 127.243.255.254
+Initial address for given subnet's is : 127.242.0.1
+
+		 ******123th subnets range *******
+
+final address for given subnet's is : 127.245.255.254
+Initial address for given subnet's is : 127.244.0.1
+
+		 ******124th subnets range *******
+
+final address for given subnet's is : 127.247.255.254
+Initial address for given subnet's is : 127.246.0.1
+
+		 ******125th subnets range *******
+
+final address for given subnet's is : 127.249.255.254
+Initial address for given subnet's is : 127.248.0.1
+
+		 ******126th subnets range *******
+
+final address for given subnet's is : 127.251.255.254
+Initial address for given subnet's is : 127.250.0.1
+
+		 ******127th subnets range *******
+
+final address for given subnet's is : 127.253.255.254
+Initial address for given subnet's is : 127.252.0.1
+
+		 ******128th subnets range *******
+
+final address for given subnet's is : 127.255.255.254
+Initial address for given subnet's is : 127.254.0.1
+
+--------------------------------------------------------->
+#Option :
+1. if you want to exit
+2. if you want to give future growth
+3. if want to reset everything
+Enter your choice:1
+]0;mayank@mayank-Vostro-5568 ~/Desktop/calc[01;32mmayank@mayank-Vostro-5568[00m [01;34m~/Desktop/calc $[00m exit
+exit
+
+Script done on Sunday 29 October 2017 12:48:29 AM IST

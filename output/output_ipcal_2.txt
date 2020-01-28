@@ -1,0 +1,59 @@
+
+-------------------------IP Calculator-------------------------------
+OPTIONS :: What you want to give as input :
+
+(1) ip address  & no of host & no of subnets
+(2) ip address & CIDR format n bits
+
+Enter your choice:1
+
+Enter ip address :172.16.0.0
+--------------------------------------------------------->
+IP Class: Private block, Class 'B'
+Default subnet mask is: 	255.255.0.0
+--------------------------------------------------------->
+Enter the no of required hosts :240
+Enter the no of required subnets :240
+
+no of bits in host part is :8
+according to class and no. of hosts possible value of  no. of bits in subnet part is :8
+--------------------------------------------------------->
+
+Custom subnet mask is 	255.255.255.0
+network address is 	172.16.0.0
+no of subnets is 256
+no of address unique is 256
+no of address usable is 254
+broadcast address for given ip's network is	172.16.0.255
+--------------------------------------------------------->
+#Options 
+1. In case you want to print a specified subnet's range (for first subnet enter 1 and so on)
+2. In case you want to print all subnets range
+3. In case you dont want to print subnet range
+Enter your choice :1
+Enter nth subnet of which you want to find range -->1
+
+
+final address for given subnet's is : 172.16.0.255
+Initial address for given subnet's is : 172.16.0.0
+--------------------------------------------------------->
+#Option :
+1. if you want to exit
+2. if you want to give future growth
+3. if want to reset everything
+Enter your choice:2
+#Growth in 1.subnets 2.hosts 
+Enter your choice :1
+Enter percentage growth in subnets :10
+no of bits in subnet part after growth is :9
+Warning::::not possible
+#Option :
+1. if you want to exit
+2. if you want to give future growth
+3. if want to reset everything
+Enter your choice:1
+]0;mayank@mayank-Vostro-5568 ~/Desktop/calc[01;32mmayank@mayank-Vostro-5568[00m [01;34m~/Desktop/calc $[00m clear
+[3;J[H[2J]0;mayank@mayank-Vostro-5568 ~/Desktop/calc[01;32mmayank@mayank-Vostro-5568[00m [01;34m~/Desktop/calc $[00m exit
+exit
+
+Script done on Tuesday 31 October 2017 10:50:15 AM IST
